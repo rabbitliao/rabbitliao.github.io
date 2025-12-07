@@ -1,0 +1,1 @@
+import{_,c as e,o as t,ah as a}from"./chunks/framework.DcyUriwR.js";const l=JSON.parse('{"title":"创建仓库","description":"","frontmatter":{},"headers":[],"relativePath":"note/3.md","filePath":"note/3.md"}'),o={name:"note/3.md"};function r(n,p,s,d,i,c){return t(),e("div",null,[...p[0]||(p[0]=[a("",32)])])}const m=_(o,[["render",r]]);export{l as __pageData,m as default};
