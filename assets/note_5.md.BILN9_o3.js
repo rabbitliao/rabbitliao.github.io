@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.DAncMLHJ.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"note/5.md","filePath":"note/5.md"}'),o={name:"note/5.md"};function n(r,s,c,_,p,d){return a(),t("div")}const f=e(o,[["render",n]]);export{m as __pageData,f as default};
