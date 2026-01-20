@@ -20,7 +20,7 @@ export default defineConfig({
           {text: '网站上线',link: '/note/3'},
           {text: 'html',link: '/note/4'},
           {text: 'CSS',link: '/note/5'},
-          {text:'hello kitty',link:'/hello kitty.heml'},
+          {text:'hello kitty',link:'/html/hello kitty'},
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
