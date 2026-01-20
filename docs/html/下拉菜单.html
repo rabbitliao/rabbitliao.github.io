@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1 {
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        /* 绝对定位在父级 */
+        background-color: rgb(162, 172, 172);
+        left: 100px;
+        top: 30px;
+    }
+
+    .box1:hover .box2 {
+        /* 滑到1，显示2 */
+        display: block;
+    }
+
+    .box2 {
+        width: 100px;
+        height: 150px;
+        background-color: rgb(134, 137, 136);
+        position: fixed;
+        left: 100px;
+        display: none;
+        /* 隐藏2 */
+    }
+
+    .box1::before {
+        content: "▶";
+    }
+
+    .box1:hover::before {
+        content: "▼";
+    }
+</style>
+
+<body>
+    <div class="box1">
+        选择分别
+        <div class="box2">
+            <br>
+            北京市
+            <br>
+            南昌市
+            <br>
+            上海市
+            <br>
+            广州市
+        </div>
+    </div>
+</body>
+
+</html>

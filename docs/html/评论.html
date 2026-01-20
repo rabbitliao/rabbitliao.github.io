@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1 {
+        width: 1200px;
+        height: 2100px;
+        position: relative;
+        border: 5px solid rgb(7, 7, 7);
+    }
+
+    .box2 {
+        background-color: brown;
+        border-radius: 25%;
+        /* 圆角 */
+        position: absolute;
+        left: 70px;
+        top: -10px;
+        padding: 0 6px;
+    }
+
+    .box3 {
+        width: 100px;
+        height: 45px;
+        background-color: rgb(20, 154, 20);
+        text-align: center;
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+    }
+
+    .box3:hover {
+        background-color: rgb(5, 74, 20);
+    }
+
+    .box4 {
+        display: none;
+        /* 使滑动效果隐藏 */
+        width: 150px;
+        height: 150px;
+        background-color: rgb(79, 81, 81);
+        position: fixed;
+        bottom: 55px;
+        right: 0px;
+    }
+
+    .box3:hover .box4 {
+        display: block;
+    }
+    /* .box4前加父级 */
+</style>
+
+<body>
+    <div class="box1">
+        <button style="width: 100px;height: 40px;">评论</button>
+        <div class="box2">99+</div>
+        <div class="box3">在线客服
+            <div class="box4"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
